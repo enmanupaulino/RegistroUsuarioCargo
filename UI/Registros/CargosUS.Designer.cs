@@ -72,41 +72,49 @@
             // 
             // GuardarButton
             // 
-            this.GuardarButton.Location = new System.Drawing.Point(19, 107);
+            this.GuardarButton.Image = global::Registro.Properties.Resources.iconfinder_Download_1031520;
+            this.GuardarButton.Location = new System.Drawing.Point(15, 78);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(75, 23);
+            this.GuardarButton.Size = new System.Drawing.Size(91, 38);
             this.GuardarButton.TabIndex = 4;
             this.GuardarButton.Text = "Guardar";
+            this.GuardarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
             // EditarButton
             // 
-            this.EditarButton.Location = new System.Drawing.Point(136, 107);
+            this.EditarButton.Image = global::Registro.Properties.Resources.iconfinder_Notes_32519;
+            this.EditarButton.Location = new System.Drawing.Point(129, 78);
             this.EditarButton.Name = "EditarButton";
-            this.EditarButton.Size = new System.Drawing.Size(75, 23);
+            this.EditarButton.Size = new System.Drawing.Size(82, 38);
             this.EditarButton.TabIndex = 5;
             this.EditarButton.Text = "Editar";
+            this.EditarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.EditarButton.UseVisualStyleBackColor = true;
             this.EditarButton.Click += new System.EventHandler(this.EditarButton_Click);
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(249, 107);
+            this.EliminarButton.Image = global::Registro.Properties.Resources.iconfinder_f_cross_256_282471;
+            this.EliminarButton.Location = new System.Drawing.Point(229, 78);
             this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(75, 23);
+            this.EliminarButton.Size = new System.Drawing.Size(85, 38);
             this.EliminarButton.TabIndex = 6;
             this.EliminarButton.Text = "Eliminar";
+            this.EliminarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.EliminarButton.UseVisualStyleBackColor = true;
             this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
             // 
             // BuscarButton
             // 
-            this.BuscarButton.Location = new System.Drawing.Point(194, 20);
+            this.BuscarButton.Image = global::Registro.Properties.Resources.iconfinder_system_search_118797;
+            this.BuscarButton.Location = new System.Drawing.Point(195, 12);
             this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(75, 23);
+            this.BuscarButton.Size = new System.Drawing.Size(74, 32);
             this.BuscarButton.TabIndex = 7;
             this.BuscarButton.Text = "Buscar";
+            this.BuscarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BuscarButton.UseVisualStyleBackColor = true;
             this.BuscarButton.Click += new System.EventHandler(this.BuscarButton_Click);
             // 
@@ -126,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 140);
+            this.ClientSize = new System.Drawing.Size(325, 133);
             this.Controls.Add(this.DescripcionTextBox);
             this.Controls.Add(this.BuscarButton);
             this.Controls.Add(this.EliminarButton);

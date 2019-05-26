@@ -43,11 +43,11 @@
             this.ClaveTextBox = new System.Windows.Forms.TextBox();
             this.FechaIngresoDatePicker = new System.Windows.Forms.DateTimePicker();
             this.NivelUsuarioComboBox = new System.Windows.Forms.ComboBox();
-            this.BuscarButton = new System.Windows.Forms.Button();
-            this.GuardarButton = new System.Windows.Forms.Button();
-            this.EditarButton = new System.Windows.Forms.Button();
-            this.EliminarButton = new System.Windows.Forms.Button();
             this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.EliminarButton = new System.Windows.Forms.Button();
+            this.EditarButton = new System.Windows.Forms.Button();
+            this.GuardarButton = new System.Windows.Forms.Button();
+            this.BuscarButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.IdNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).BeginInit();
             this.SuspendLayout();
@@ -135,7 +135,7 @@
             this.NombreTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NombreTextBox.Location = new System.Drawing.Point(110, 47);
             this.NombreTextBox.Name = "NombreTextBox";
-            this.NombreTextBox.Size = new System.Drawing.Size(187, 23);
+            this.NombreTextBox.Size = new System.Drawing.Size(196, 23);
             this.NombreTextBox.TabIndex = 8;
             // 
             // EmailTextBox
@@ -143,7 +143,7 @@
             this.EmailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmailTextBox.Location = new System.Drawing.Point(110, 76);
             this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.Size = new System.Drawing.Size(187, 23);
+            this.EmailTextBox.Size = new System.Drawing.Size(196, 23);
             this.EmailTextBox.TabIndex = 9;
             // 
             // UsuarioTextBox
@@ -151,7 +151,7 @@
             this.UsuarioTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsuarioTextBox.Location = new System.Drawing.Point(110, 135);
             this.UsuarioTextBox.Name = "UsuarioTextBox";
-            this.UsuarioTextBox.Size = new System.Drawing.Size(187, 23);
+            this.UsuarioTextBox.Size = new System.Drawing.Size(196, 23);
             this.UsuarioTextBox.TabIndex = 10;
             // 
             // ClaveTextBox
@@ -160,7 +160,7 @@
             this.ClaveTextBox.Location = new System.Drawing.Point(110, 164);
             this.ClaveTextBox.Name = "ClaveTextBox";
             this.ClaveTextBox.PasswordChar = '*';
-            this.ClaveTextBox.Size = new System.Drawing.Size(187, 23);
+            this.ClaveTextBox.Size = new System.Drawing.Size(196, 23);
             this.ClaveTextBox.TabIndex = 11;
             // 
             // FechaIngresoDatePicker
@@ -184,62 +184,74 @@
             "Normal"});
             this.NivelUsuarioComboBox.Location = new System.Drawing.Point(110, 105);
             this.NivelUsuarioComboBox.Name = "NivelUsuarioComboBox";
-            this.NivelUsuarioComboBox.Size = new System.Drawing.Size(187, 24);
+            this.NivelUsuarioComboBox.Size = new System.Drawing.Size(196, 24);
             this.NivelUsuarioComboBox.TabIndex = 14;
-            // 
-            // BuscarButton
-            // 
-            this.BuscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BuscarButton.Location = new System.Drawing.Point(189, 18);
-            this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(93, 23);
-            this.BuscarButton.TabIndex = 15;
-            this.BuscarButton.Text = "Buscar";
-            this.BuscarButton.UseVisualStyleBackColor = true;
-            this.BuscarButton.Click += new System.EventHandler(this.BuscarButton_Click);
-            // 
-            // GuardarButton
-            // 
-            this.GuardarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuardarButton.Location = new System.Drawing.Point(15, 253);
-            this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(75, 23);
-            this.GuardarButton.TabIndex = 16;
-            this.GuardarButton.Text = "Guardar";
-            this.GuardarButton.UseVisualStyleBackColor = true;
-            this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
-            // 
-            // EditarButton
-            // 
-            this.EditarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditarButton.Location = new System.Drawing.Point(110, 253);
-            this.EditarButton.Name = "EditarButton";
-            this.EditarButton.Size = new System.Drawing.Size(75, 23);
-            this.EditarButton.TabIndex = 17;
-            this.EditarButton.Text = "Editar";
-            this.EditarButton.UseVisualStyleBackColor = true;
-            this.EditarButton.Click += new System.EventHandler(this.EditarButton_Click);
-            // 
-            // EliminarButton
-            // 
-            this.EliminarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EliminarButton.Location = new System.Drawing.Point(222, 253);
-            this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(75, 23);
-            this.EliminarButton.TabIndex = 18;
-            this.EliminarButton.Text = "Eliminar";
-            this.EliminarButton.UseVisualStyleBackColor = true;
-            this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
             // 
             // ErrorProvider
             // 
             this.ErrorProvider.ContainerControl = this;
             // 
+            // EliminarButton
+            // 
+            this.EliminarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EliminarButton.Image = global::Registro.Properties.Resources.iconfinder_f_cross_256_282471;
+            this.EliminarButton.Location = new System.Drawing.Point(213, 232);
+            this.EliminarButton.Name = "EliminarButton";
+            this.EliminarButton.Size = new System.Drawing.Size(93, 47);
+            this.EliminarButton.TabIndex = 18;
+            this.EliminarButton.Text = "Eliminar";
+            this.EliminarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.EliminarButton.UseVisualStyleBackColor = true;
+            this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
+            // 
+            // EditarButton
+            // 
+            this.EditarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditarButton.Image = global::Registro.Properties.Resources.iconfinder_Notes_32519;
+            this.EditarButton.Location = new System.Drawing.Point(123, 232);
+            this.EditarButton.Name = "EditarButton";
+            this.EditarButton.Size = new System.Drawing.Size(84, 47);
+            this.EditarButton.TabIndex = 17;
+            this.EditarButton.Text = "Editar";
+            this.EditarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.EditarButton.UseVisualStyleBackColor = true;
+            this.EditarButton.Click += new System.EventHandler(this.EditarButton_Click);
+            // 
+            // GuardarButton
+            // 
+            this.GuardarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuardarButton.Image = global::Registro.Properties.Resources.iconfinder_Download_1031520;
+            this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.GuardarButton.Location = new System.Drawing.Point(15, 232);
+            this.GuardarButton.Name = "GuardarButton";
+            this.GuardarButton.Size = new System.Drawing.Size(102, 47);
+            this.GuardarButton.TabIndex = 16;
+            this.GuardarButton.Text = "Guardar";
+            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.GuardarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.GuardarButton.UseVisualStyleBackColor = true;
+            this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
+            // 
+            // BuscarButton
+            // 
+            this.BuscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BuscarButton.Image = global::Registro.Properties.Resources.iconfinder_system_search_118797;
+            this.BuscarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BuscarButton.Location = new System.Drawing.Point(204, 12);
+            this.BuscarButton.Name = "BuscarButton";
+            this.BuscarButton.Size = new System.Drawing.Size(102, 31);
+            this.BuscarButton.TabIndex = 15;
+            this.BuscarButton.Text = "Buscar";
+            this.BuscarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BuscarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BuscarButton.UseVisualStyleBackColor = true;
+            this.BuscarButton.Click += new System.EventHandler(this.BuscarButton_Click);
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 300);
+            this.ClientSize = new System.Drawing.Size(327, 296);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.EditarButton);
             this.Controls.Add(this.GuardarButton);

@@ -44,11 +44,15 @@
             // ConsultarDataGridView
             // 
             this.ConsultarDataGridView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConsultarDataGridView.Location = new System.Drawing.Point(494, 27);
+            this.ConsultarDataGridView.Image = global::Registro.Properties.Resources.iconfinder_system_search_118797;
+            this.ConsultarDataGridView.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ConsultarDataGridView.Location = new System.Drawing.Point(465, 12);
             this.ConsultarDataGridView.Name = "ConsultarDataGridView";
-            this.ConsultarDataGridView.Size = new System.Drawing.Size(75, 23);
+            this.ConsultarDataGridView.Size = new System.Drawing.Size(104, 38);
             this.ConsultarDataGridView.TabIndex = 0;
             this.ConsultarDataGridView.Text = "Consultar";
+            this.ConsultarDataGridView.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ConsultarDataGridView.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ConsultarDataGridView.UseVisualStyleBackColor = true;
             this.ConsultarDataGridView.Click += new System.EventHandler(this.ConsultarButton_Click);
             // 
@@ -81,7 +85,7 @@
             // CriteriosTextBox
             // 
             this.CriteriosTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CriteriosTextBox.Location = new System.Drawing.Point(366, 27);
+            this.CriteriosTextBox.Location = new System.Drawing.Point(352, 27);
             this.CriteriosTextBox.Name = "CriteriosTextBox";
             this.CriteriosTextBox.Size = new System.Drawing.Size(107, 23);
             this.CriteriosTextBox.TabIndex = 4;
@@ -90,7 +94,7 @@
             // 
             this.LabelCriterios.AutoSize = true;
             this.LabelCriterios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCriterios.Location = new System.Drawing.Point(394, 6);
+            this.LabelCriterios.Location = new System.Drawing.Point(377, 6);
             this.LabelCriterios.Name = "LabelCriterios";
             this.LabelCriterios.Size = new System.Drawing.Size(60, 17);
             this.LabelCriterios.TabIndex = 5;

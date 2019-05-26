@@ -70,10 +70,7 @@
             this.FiltroComboBox.Items.AddRange(new object[] {
             "Todo",
             "Id",
-            "Nombre",
-            "Email",
-            "Nivel Usuario",
-            "Usuario"});
+            "Descripcion"});
             this.FiltroComboBox.Location = new System.Drawing.Point(12, 25);
             this.FiltroComboBox.Name = "FiltroComboBox";
             this.FiltroComboBox.Size = new System.Drawing.Size(121, 24);
@@ -92,12 +89,16 @@
             // ConsultarDataGridView
             // 
             this.ConsultarDataGridView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConsultarDataGridView.Location = new System.Drawing.Point(281, 26);
+            this.ConsultarDataGridView.Image = global::Registro.Properties.Resources.iconfinder_system_search_118797;
+            this.ConsultarDataGridView.Location = new System.Drawing.Point(266, 17);
             this.ConsultarDataGridView.Name = "ConsultarDataGridView";
-            this.ConsultarDataGridView.Size = new System.Drawing.Size(75, 23);
+            this.ConsultarDataGridView.Size = new System.Drawing.Size(111, 32);
             this.ConsultarDataGridView.TabIndex = 11;
             this.ConsultarDataGridView.Text = "Consultar";
+            this.ConsultarDataGridView.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.ConsultarDataGridView.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ConsultarDataGridView.UseVisualStyleBackColor = true;
+            this.ConsultarDataGridView.UseWaitCursor = true;
             this.ConsultarDataGridView.Click += new System.EventHandler(this.ConsultarDataGridView_Click);
             // 
             // ConCargod
